@@ -1,7 +1,7 @@
 # **ECE 20875: Python for Data Science**
 
 **Course Description:**
-This course introduces Python programming to students through data science problems. Students learn Python concepts as well as introductory data science topics, and use their knowledge of Python (and prior programming experience) to implement data analyses.
+This course introduces Python programming through data science problems. Python concepts are explored as well as introductory data science topics, and are used to implement data analyses.
 
 ### **List of HW Assignments**
 
