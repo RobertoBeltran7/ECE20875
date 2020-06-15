@@ -6,12 +6,13 @@ This course introduces Python programming to students through data science probl
 ### **List of HW Assignments**
 
 - **HW3: Histograms and Distributions**
+
 This assignment has functions that will find the optimal number of histogram bins in a data set. The functions are also used to identify the type of distribution presented by the data set.
 
-- **HW4: **Higher-Order Functions**
+- **HW4: Higher-Order Functions**
 This assignment introduces the use of higher-order functions in Python.
 
-- **HW5: **Sampling, Hypothesis Testing, and Confidence Intervals**
+- **HW5: Sampling, Hypothesis Testing, and Confidence Intervals**
 This assignment introduces hypothesis testing and confidence intervals in Python.
 
 - **HW6: Regular Expressions**
