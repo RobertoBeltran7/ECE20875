@@ -1,0 +1,17 @@
+So in this lecture we looked at various aspects of WiFi, from its unlicensed ISM frequency bands to how it handles interference in these bands.
+
+We focused a lot on WiFi's random access protocols, but along the way we also looked at various other properties. We started off by looking at WiFi standards and deployments. We looked at the ISM bands, Industrial Scientific and Medical bands and how they were allocated as unlicensed frequency bands for use by engineers and more general research population.
+
+We looked at some different standards that have been developed for WiFi. It's called 802.11 that's its technical name. We have 802.11a/b/g/n/ac and other standards are constantly being made.
+
+And we also looked how WiFi devices lie in basic service sets and connect and authenticate with access points.
+
+We then turned to look at the basics of random access. We looked at modeling collisions, and some of the factors that can affect the outcomes of collisions, though we assumed for purposes of our subsequent analysis that whenever a collision occurs both frames or packets that suffered the collision will always be lost.
+
+We talked about the difference between the DCF or the distributed coordination function and the PCF or the point coordination function, is the difference between distributed control or distributed coordination and scheduling or dedicated resource allocation. The DCF for WiFi is used the vast majority of the time because it's much easier to implement even though the PCF may be able to achieve higher efficiency.
+
+Then we looked at the Aloha protocol, a very simple and basic protocol to illustrate the ideas of random access, except in this case it's purely random access and there's no attempt at sensing or coordination at all in this case. We also looked at how to quantify the scalability of that.
+
+Then we took a look at interference mitigation in WiFi, so for WiFi's actual DCF, it follows an implementation of the CSMA, or carrier sensing multiple access protocol. We saw some properties of CSMA as we saw its different aspects, uses carrier sensing, using backoff, backoff which is multiplicative, it goes through contention periods, it uses randomization to choose backoffs to try to avoid the possibility of having a collision again, and it has a prioritization of different types of messages by varying the length of the different wait and listen periods.
+
+Finally we took a look at how to quantify the scalability of WiFi's DCF. We came up with the derivation of the throughput of CSMA. And we saw overall in looking at an example of 802.11g but that's generalizable to other standards as well, that WiFi's DCF is not scalable to a large number of devices. The contention becomes too intense for resolution by distributed scheduling. And this is why the performance you see at hotspots is going to be considerably lower than what you get at your home.
